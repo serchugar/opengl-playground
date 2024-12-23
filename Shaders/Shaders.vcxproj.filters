@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{02a3cf4b-3d0b-4dd5-bd2a-90a7506de660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Vertex Shaders">
+      <UniqueIdentifier>{0db98271-c09b-46e6-b7b5-cdea5c79f896}</UniqueIdentifier>
+      <Extensions>vert</Extensions>
+    </Filter>
+    <Filter Include="Shader Files\Fragment Shaders">
+      <UniqueIdentifier>{520a657e-0e07-466e-9c3c-d106c3bb37d8}</UniqueIdentifier>
+      <Extensions>frag</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\sharedSource\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shaderClass.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="upsideDown.vert">
+      <Filter>Shader Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="rainbowCycle.frag">
+      <Filter>Shader Files\Fragment Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
