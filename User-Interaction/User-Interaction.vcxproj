@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ed89e3d3-fcce-4865-8017-672ff0ddd45d}</ProjectGuid>
-    <RootNamespace>Shaders</RootNamespace>
+    <ProjectGuid>{30e4a458-bee0-4bd6-8140-ca64fd1b617b}</ProjectGuid>
+    <RootNamespace>UserInteraction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -74,6 +74,10 @@
     <IncludePath>E:\Development\Shared\cpp\SFML_OpenGL\includes;$(IncludePath)</IncludePath>
     <LibraryPath>E:\Development\Shared\cpp\SFML_OpenGL\libs\SFML;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>E:\Development\Shared\cpp\SFML_OpenGL\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Development\Shared\cpp\SFML_OpenGL\libs\SFML;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -106,8 +110,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,16 +141,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\sharedSource\glad.c" />
+    <ClCompile Include="clickSpawn.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="rgbCycleColor.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shaders.hpp" />
-    <ClInclude Include="shaderClass.hpp" />
+    <ClInclude Include="Circle.hpp" />
+    <ClInclude Include="userInteraction.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="rainbowCycle.frag" />
-    <None Include="upsideDown.vert" />
+    <None Include="basicFrag.frag" />
+    <None Include="basicVert.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
