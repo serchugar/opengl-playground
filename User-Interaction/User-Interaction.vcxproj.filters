@@ -35,12 +35,15 @@
     <ClCompile Include="clickSpawn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="clickDelete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="userInteraction.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Circle.hpp">
+    <ClInclude Include="Graph.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -49,6 +52,12 @@
       <Filter>Shader Files\Fragment Shaders</Filter>
     </None>
     <None Include="basicVert.vert">
+      <Filter>Shader Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="pointAsCircle.frag">
+      <Filter>Shader Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="pointAsCircle.vert">
       <Filter>Shader Files\Vertex Shaders</Filter>
     </None>
   </ItemGroup>

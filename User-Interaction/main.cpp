@@ -2,7 +2,8 @@
 
 int main()
 {
-	clickSpawn();
+	//clickSpawn();
+	clickDelete();
 
 	return 0;
 }
