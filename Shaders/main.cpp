@@ -2,7 +2,8 @@
 
 int main()
 {
-	rgbCycleColor();
+	//rgbCycleColor();
+	msaaPoint();
 
 	return 0;
 }
