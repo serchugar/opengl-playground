@@ -1,4 +1,4 @@
-#include "../Shaders/shaderClass.hpp"
+#include "../../Shaders/shaderClass.hpp"
 #include "Graph.hpp"
 
 #include <SFML/Window.hpp>
@@ -35,7 +35,7 @@ void clickDelete()
 	}
 
 	// Shaders managed by the Shader class
-	Shader shader("pointAsCircle.vert", "pointAsCircle.frag");
+	Shader shader("click-Delete/pointAsCircle.vert", "click-Delete/pointAsCircle.frag");
 	// To create a shader that draws points as circles:
 	//https://mmmovania.blogspot.com/2010/12/circular-point-sprites-in-opengl-33.html
 

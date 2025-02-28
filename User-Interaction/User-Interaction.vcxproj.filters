@@ -32,10 +32,10 @@
     <ClCompile Include="..\sharedSource\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="clickSpawn.cpp">
+    <ClCompile Include="click-Spawn\clickSpawn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="clickDelete.cpp">
+    <ClCompile Include="click-Delete\clickDelete.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -43,21 +43,21 @@
     <ClInclude Include="userInteraction.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Graph.hpp">
+    <ClInclude Include="click-Delete\Graph.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="basicFrag.frag">
+    <None Include="click-Spawn\basicFrag.frag">
       <Filter>Shader Files\Fragment Shaders</Filter>
     </None>
-    <None Include="basicVert.vert">
+    <None Include="click-Spawn\basicVert.vert">
       <Filter>Shader Files\Vertex Shaders</Filter>
     </None>
-    <None Include="pointAsCircle.frag">
+    <None Include="click-Delete\pointAsCircle.frag">
       <Filter>Shader Files\Fragment Shaders</Filter>
     </None>
-    <None Include="pointAsCircle.vert">
+    <None Include="click-Delete\pointAsCircle.vert">
       <Filter>Shader Files\Vertex Shaders</Filter>
     </None>
   </ItemGroup>

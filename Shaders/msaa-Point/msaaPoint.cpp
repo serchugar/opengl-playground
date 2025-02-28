@@ -1,4 +1,4 @@
-#include "shaderClass.hpp"
+#include "../shaderClass.hpp"
 
 #include <SFML/Window.hpp>
 #include <glad/glad.h>
@@ -37,8 +37,8 @@ void msaaPoint()
 	}
 
 	// Shaders managed by the Shader class
-	Shader shader("msaaPoint.vert", "msaaPoint.frag");
-	Shader shader2("msaaPoint.vert", "msaaPoint.frag");
+	Shader shader("msaa-Point/msaaPoint.vert", "msaa-Point/msaaPoint.frag");
+	Shader shader2("msaa-Point/msaaPoint.vert", "msaa-Point/msaaPoint.frag");
 
 	// Define vertex variables
 	float vertices[]  = { -0.5,0,0 };

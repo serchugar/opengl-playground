@@ -141,19 +141,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\sharedSource\glad.c" />
-    <ClCompile Include="clickDelete.cpp" />
-    <ClCompile Include="clickSpawn.cpp" />
+    <ClCompile Include="click-Delete\clickDelete.cpp" />
+    <ClCompile Include="click-Spawn\clickSpawn.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Graph.hpp" />
+    <ClInclude Include="click-Delete\Graph.hpp" />
     <ClInclude Include="userInteraction.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="basicFrag.frag" />
-    <None Include="basicVert.vert" />
-    <None Include="pointAsCircle.frag" />
-    <None Include="pointAsCircle.vert" />
+    <None Include="click-Spawn\basicFrag.frag" />
+    <None Include="click-Spawn\basicVert.vert" />
+    <None Include="click-Delete\pointAsCircle.frag" />
+    <None Include="click-Delete\pointAsCircle.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

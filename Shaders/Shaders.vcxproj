@@ -137,18 +137,18 @@
   <ItemGroup>
     <ClCompile Include="..\sharedSource\glad.c" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="msaaPoint.cpp" />
-    <ClCompile Include="rgbCycleColor.cpp" />
+    <ClCompile Include="msaa-Point\msaaPoint.cpp" />
+    <ClCompile Include="rgb-Cycle\rgbCycleColor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shaders.hpp" />
     <ClInclude Include="shaderClass.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="msaaPoint.frag" />
-    <None Include="msaaPoint.vert" />
-    <None Include="rainbowCycle.frag" />
-    <None Include="upsideDown.vert" />
+    <None Include="msaa-Point\msaaPoint.frag" />
+    <None Include="msaa-Point\msaaPoint.vert" />
+    <None Include="rgb-Cycle\rainbowCycle.frag" />
+    <None Include="rgb-Cycle\upsideDown.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

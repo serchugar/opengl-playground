@@ -1,4 +1,4 @@
-#include "shaderClass.hpp"
+#include "../shaderClass.hpp"
 
 #include <SFML/Window.hpp>
 #include <glad/glad.h>
@@ -41,7 +41,7 @@ void rgbCycleColor()
 	std::cout << "Maximum nr of vertex attributes supported: " << nrAttributes << std::endl;
 
 	// Shaders managed by our Shader class
-	Shader shader1("upsideDown.vert", "rainbowCycle.frag");
+	Shader shader1("rgb-Cycle/upsideDown.vert", "rgb-Cycle/rainbowCycle.frag");
 
 	// Define vertex geometry of the triangle
 	float vertices[] =

@@ -1,4 +1,4 @@
-#include "../Shaders/shaderClass.hpp"
+#include "../../Shaders/shaderClass.hpp"
 
 #include <SFML/Window.hpp>
 #include <glad/glad.h>
@@ -61,7 +61,7 @@ void clickSpawn()
 	//std::cout << "Maximum nr of vertex attributes supported: " << nrAttributes << std::endl;
 
 	// Shaders managed by our Shader class
-	Shader shader1("basicVert.vert", "../Shaders/rainbowCycle.frag");
+	Shader shader1("click-Spawn/basicVert.vert", "../Shaders/rgb-Cycle/rainbowCycle.frag");
 
 	// Define vertex geometry of the pentagon
 	std::vector<float> vertices;

@@ -29,13 +29,13 @@
     <ClCompile Include="..\sharedSource\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rgbCycleColor.cpp">
+    <ClCompile Include="rgb-Cycle\rgbCycleColor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="msaaPoint.cpp">
+    <ClCompile Include="msaa-Point\msaaPoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,16 +48,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="upsideDown.vert">
+    <None Include="rgb-Cycle\upsideDown.vert">
       <Filter>Shader Files\Vertex Shaders</Filter>
     </None>
-    <None Include="rainbowCycle.frag">
+    <None Include="rgb-Cycle\rainbowCycle.frag">
       <Filter>Shader Files\Fragment Shaders</Filter>
     </None>
-    <None Include="msaaPoint.frag">
+    <None Include="msaa-Point\msaaPoint.frag">
       <Filter>Shader Files\Fragment Shaders</Filter>
     </None>
-    <None Include="msaaPoint.vert">
+    <None Include="msaa-Point\msaaPoint.vert">
       <Filter>Shader Files\Vertex Shaders</Filter>
     </None>
   </ItemGroup>
